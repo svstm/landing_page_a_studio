@@ -1,5 +1,330 @@
+@font-face {
+  font-family: "Averta Demo PE Cutted Demo";
+  src: url("./assets/fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+.wraper {
+  max-width: calc(1200px+240px);
+}
+header {
+  white-space: nowrap;
+  display: flex;
+  margin-top: 42px;
+  margin-left: 120px;
+  gap: 435px;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.logo p {
+  /* How to get access to this font ?  */
+  font-family: Proxima Nova;
+  font-size: 27.15px;
+  font-weight: 700;
+  line-height: 33.07px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.logo span {
+  font-family: "Averta Demo PE Cutted Demo";
+  font-size: 27.15px;
+  font-weight: 400;
+  line-height: 33.55px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.navigation {
+  margin-right: 120px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.navigation a {
+  white-space: nowrap;
+  text-decoration: none;
+  color: black;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.78px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.container_contact_bloc {
+  margin-left: 68px;
+  margin-top: 40px;
+  display: flex;
+  width: 100vw;
+  width: 1372px;
+  height: 608px;
+
+  gap: 0px;
+  opacity: 0px;
+  justify-content: space-between;
+}
+.contact_form {
+  margin-left: 68px;
+  margin-top: 123px;
+  margin-left: calc(120px-68px);
+  width: 471px;
+  height: 265px;
+  /* Why we need here border ? */
+  border-radius: 60px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.container_h1 h1 {
+  font-family: "Averta Demo PE Cutted Demo";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49.44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.container_text_contact_form {
+  margin-top: 40px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #565656;
+}
+
+.contact_form::after {
+  content: "";
+  width: 404px;
+  height: 154px;
+  top: 469px;
+  left: 68px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url(./assets/Dot\ Ornament.png);
+  position: absolute;
+  z-index: -1;
+}
+
+.contact_now_btn {
+  /* width: Hug (215px) px; What is it mean and how it should work */
+  margin-top: 33px;
+  width: Hug (215px) px;
+  height: Hug (65px) px;
+  background-color: #2639ed;
+  color: white;
+  top: 439px;
+  left: 121px;
+  padding: 20px 40px 20px 40px;
+  gap: 10px;
+  border-radius: 60px 60px 60px 60px;
+  opacity: 0px;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.72px;
+  letter-spacing: 0.065em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.container_image_contact_form {
+  width: 754px;
+  height: 512px;
+  background-image: url("./assets/image\ 8\ \(1\).png");
+}
+
+.container_image_contact_form::before {
+  content: "";
+  width: 129px;
+  height: 129px;
+  background-color: #dae9ff;
+  border-radius: 50%;
+  position: absolute;
+  width: 129px;
+  height: 129px;
+  top: 116px;
+  left: 623px;
+  gap: 0px;
+  opacity: 0px;
+  z-index: -1;
+}
+
+.container_image_contact_form::after {
+  content: "";
+  background-color: #fff5db;
+  width: 178px;
+  height: 178px;
+  top: 546px;
+  left: 1142px;
+  gap: 0px;
+  border-radius: 0px 0px 100px 0px;
+  opacity: 0px;
+  position: absolute;
+  z-index: -1;
+}
+
+.our_clients {
+  width: 1199.55px;
+  height: 124px;
+  margin-top: 40px;
+  margin-left: 120px;
+  display: flex;
+}
+
+.our_clients h2 {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49.44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.our_clients p {
+  width: 336px;
+  margin-right: 60px;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #757575;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.slider_bloc {
+  width: calc(1199.55px - 336px - 50px);
+  height: 200px;
+  background-color: #75757578;
+}
+
+.business_help {
+  margin-top: 94px;
+  margin-left: 82px;
+  width: 1358px;
+  height: 867px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #75757589;
+  display: flex;
+  position: relative;
+}
+
+.text_business_help {
+  width: 396px;
+  height: 180px;
+  margin-top: 360px;
+  margin-left: 38px;
+  margin-right: 91px;
+}
+
+.text_business_help::before {
+  content: "";
+  width: 178px;
+  height: 178px;
+  top: 300px;
+  left: 0px;
+  gap: 0px;
+  border-radius: 0px 0px 100px 0px;
+  opacity: 0px;
+  transform: rotate(180deg);
+  position: absolute;
+  background-color: #fff5db;
+  z-index: -1;
+}
+
+.text_business_help::after {
+  content: "";
+  background-image: url(./assets/Group\ 70.png);
+  width: 405px;
+  height: 154px;
+  top: calc(265px + 379px);
+  left: 43px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.text_business_help h2 {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49.44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text_business_help p {
+  margin-top: 30px;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #565656;
+}
+.help_containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 34px;
+  row-gap: 30px;
+  justify-items: center;
+}
+
+.busines_help_container {
+  width: 308px;
+  height: 379px;
+  top: 1061px;
+  left: 607px;
+  border-radius: 40px 40px 40px 40px;
+  border: 1px 1px 1px 1px;
+  opacity: 0px;
+  box-shadow: 0px 10px 50px 0px #0000000d;
+  border: 1px solid #f2f2f2;
+  background-color: #ffffff;
+}
+
+#business_idea {
+  margin-top: 79px;
+  background-color: red;
+}
+
+#financial_planning {
+}
+#development_website {
+}
+
+#market_analysis {
 }

@@ -6,10 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page A+</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
+    <div class="wraper">
+        <header>
+            <div class="logo">
+                <p>A+ <span>Studio</span></p>
+            </div>
+            <div class="navigation">
+                <div class="navlink"><a href="#">Home</a></div>
+                <div class="navlink"><a href="#">What We Do</a></div>
+                <div class="navlink"><a href="#">Service</a></div>
+                <div class="navlink"><a href="#">Project</a></div>
+                <div class="navlink"><a href="#">Blog</a></div>
+                <div class="navlink"><a href="#">Contact</a></div>
+            </div>
+        </header>
+        <div class="container_contact_bloc">
+            <div class="contact_form">
+                <div class="container_h1">
+                    <h1>A Digital Product Agency</h1>
+                </div>
+                <div class="container_text_contact_form">
+                    <p>Leading digital agency with solid design and development expertise. We build readymade websites,
+                        mobile applications, and elaborate online business services.</p>
+                </div>
+                <div class="contact_button">
+                    <button class="contact_now_btn">Contact Now</button>
+                </div>
+            </div>
+            <div class="container_image_contact_form"></div>
+        </div>
+        <div class="our_clients">
+            <div class="wrapper_our_clients_text">
+                <h2>Our Client</h2>
+                <p>Several selected clients, who already believe in our service.</p>
+            </div>
+            <!-- min width 0 (if some troubles) -->
+            <div class="slider_bloc">
+                <div class="swiper list_clients_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide_container">
+                                <img src="./assets/clients/Vector (3).png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="business_help">
+            <div class="text_business_help">
+                <h2>How can we help your Business ?</h2>
+                <p>We build readymade websites, mobile applications, and elaborate online business services.</p>
+            </div>
+            <div class="help_containers">
+                <div class="busines_help_container" id="business_idea"></div>
+                <div class="busines_help_container" id="financial_planning"></div>
+                <div class="busines_help_container" id="development_website"></div>
+                <div class="busines_help_container" id="market_analysis"></div>
+            </div>
+        </div>
 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 
