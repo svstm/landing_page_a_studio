@@ -316,16 +316,216 @@ header {
   background-color: #ffffff;
 }
 
+.busines_help_container h3 {
+  margin-top: 31px;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.66px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.busines_help_container p {
+  margin-top: 27px;
+  color: #757575;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
 #business_idea {
   margin-top: 79px;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #financial_planning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #development_website {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #market_analysis {
-  margin-bottom: 79px;
+  transform: translateY(-79px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon_container {
+  margin-top: 39px;
+  width: 121px;
+  height: 121px;
+  background-color: #f1f7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.icon_container img {
+  width: 74px;
+  height: 74px;
+}
+
+.video-block {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 146px;
+  margin-left: 120px;
+  width: 1200px;
+  height: 436px;
+  gap: 119px;
+}
+
+.video {
+  width: 550px;
+  height: 372px;
+  flex-shrink: 0;
+  background-color: #757575;
+  gap: 0px;
+  border-radius: 32px 32px 32px 32px;
+  opacity: 0px;
+  overflow: hidden;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video_right_text_block h2 {
+  width: 468px;
+  margin-top: 82px;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49.44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.video_right_text_block p {
+  margin-top: 30px;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #565656;
+}
+
+.client-review h2 {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49.44px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.client-review p {
+  padding-top: 21px;
+  padding-bottom: 40px;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #757575;
+}
+
+.client-review {
+  margin-top: 117px;
+  margin-left: 107px;
+  width: 1264px;
+  height: 597px;
+
+  border-radius: 500px 0px 500px 500px;
+}
+
+.img-review {
+  width: 348px;
+  height: 355px;
+}
+
+.wrapper_slider_vs_group_photo {
+  display: flex;
+  margin-top: 113px;
+  align-items: flex-end;
+}
+.review-container {
+  display: flex;
+}
+
+/* .img-review {
+  width: 389px;
+  height: 389px;
+} */
+
+/* .swiper .mySwiper {
+
+  width: 389px;
+  height: 389px;
+} */
+
+.text_review {
+  width: 412px;
+  height: 185px;
+}
+
+.text_review p {
+  text-align: left;
+}
+
+.reviews {
+  margin-left: 67px;
+  margin-top: 84px;
+  width: 412px;
+  height: 185px;
+}
+
+/* .swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+} */
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  gap: 0px;
+  border-radius: 500px 0px 500px 500px;
+
+  object-fit: cover;
+}
+
+.group_photos {
+  width: 348px;
+  height: 355px;
+  background-color: #757575;
+  background-image: url(./assets/clients/Group\ 71.png);
+  background-size: cover;
+  margin-left: auto;
 }
